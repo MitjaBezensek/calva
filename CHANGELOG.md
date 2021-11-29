@@ -4,6 +4,19 @@ Changes to Calva.
 
 ## [Unreleased]
 
+## [2.0.226] - 2021-11-29
+- Re-enable, Experimental: [Add Parinfer Options](https://github.com/BetterThanTomorrow/calva/issues/253)
+- Internal: [Handle the unknown-op status from test commands](https://github.com/BetterThanTomorrow/calva/pull/1365)
+- Fix: [textDocument/linkedEditingRange failed when opening files or moving cursor](https://github.com/BetterThanTomorrow/calva/issues/1374)
+- Fix: [paredit.spliceSexp doesn't work with set literals](https://github.com/BetterThanTomorrow/calva/issues/1395)
+- Fix: [LSP code actions not working](https://github.com/BetterThanTomorrow/calva/issues/1373)
+
+## [2.0.225] - 2021-11-10
+- Revert 224 changes: [Version v2.0.224 causes problems on some machines (possibly Windows related)](https://github.com/BetterThanTomorrow/calva/issues/1379)
+
+## [2.0.224] - 2021-11-10
+- Experimental: [Add Parinfer Options](https://github.com/BetterThanTomorrow/calva/issues/253)
+
 ## [2.0.223] - 2021-11-01
 - [Include material from clojuredocs.org in function documentation](https://github.com/BetterThanTomorrow/calva/issues/689)
 - Fix: [Not able to escape read-line in the output window](https://github.com/BetterThanTomorrow/calva/issues/783)
