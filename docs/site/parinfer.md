@@ -5,6 +5,9 @@ description: Learn how to leverage Calva Parinfer Mode for structural editing
 
 # Calva Parinfer Mode
 
+!!! Note "Reverted in Calva v2.0.228"
+    The changes in v2.0.227 seemed to cause problems for some users. Unclear yet if and why. But to not risk causing problems for more users these changes where reverted and Calva v2.0.228 does not contain them. **Please consider using v2.0.227 and help find what the problems are about!**
+
 [Parinfer](https://shaunlebron.github.io/parinfer/) is a system for editing the structure of LISP text without explicit commands. The structure can be regarded as already being expressed through indentation. With Parinfer you can use your intuition about the structure _inferred_ from the indentation to perform surprisingly many structural edits.
 
 !!! Note "Experimental"
